@@ -1,2 +1,4 @@
+# Python
 .direnv
 __pycache__
+*.pyc$

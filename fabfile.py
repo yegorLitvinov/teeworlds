@@ -1,10 +1,8 @@
-import os
 from fabric import api
 from fabricio import docker, tasks
 
 
 host = '195.201.27.44'
-teeworlds_srv_password = os.environ['TEEWORLDS_SRV_PASSWORD']
 
 
 @api.hosts(f'root@{host}')
